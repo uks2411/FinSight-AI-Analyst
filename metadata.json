@@ -1,0 +1,8 @@
+{
+  "name": "copy FinSight AI Analyst",
+  "description": "An intelligent financial analyst tool that parses raw stock fundamentals, visualizes historical trends, and uses Gemini 3 Pro to forecast future performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
