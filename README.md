@@ -1,20 +1,52 @@
+# FinSight AI Analyst
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+   
+  <img src="finsight.png" alt="FinSight AI Analyst Logo" width="200" height="200" />
+  <h3>Predictive Fundamental Analytics</h3>
+  <p>An intelligent financial tool that parses raw stock fundamentals, visualizes historical trends, and leverages the Gemini API to forecast future performance.</p>
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🚀 Overview
 
-View your app in AI Studio: https://ai.studio/apps/97d94f4e-946a-40ce-b178-b5835d554261
+**FinSight AI Analyst** is a research project bridging core fundamental analysis with LLM-driven predictive analytics. The system parses raw financial data, generates interactive visualizations, and applies advanced predictive validation to forecast company metrics. 
 
-## Run Locally
+> **What's Next:** The current phase focuses on fundamental data. The next phase of development involves building a companion tool dedicated to **Technical Analysis**.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Built With
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The project leverages a robust stack combining data science libraries, modern visualization tools, and generative AI:
+
+*   **Language:** Python
+*   **AI Engine:** Gemini API
+*   **Data Processing:** Pandas, NumPy
+*   **Visualization:** Recharts / D3.js
+*   **Core Methodology:** Fundamental Analysis
+*   **Security:** Sandboxed Execution Engine
+
+---
+
+## ⚡ Key Technical Features
+
+### 01. Data Ingestion
+The platform supports flexible data input methods designed for seamless financial analysis:
+*   **Manual Copy-Paste:** Quick entry for fast analysis.
+*   **Bulk Text-File Uploads:** Directly parses raw yearly financial statements (Sales, Expenses, Net Profit, EPS) exported from **Screener.in**.
+
+### 02. Predictive Validation
+To ensure honest accuracy benchmarking, the system uses an isolated training methodology:
+*   Trains on historical data up to the penultimate year to forecast the latest year's metrics.
+*   Features a **strict code-level sandboxing engine** to completely isolate the test year and prevent data leakage.
+
+### 03. Sector-Aware Inferences
+The model retains contextual insights within specific industries. It dynamically utilizes transferred learnings from previously analyzed peer stocks (e.g., *Sun Pharma*) to improve predictive accuracy for other companies within the same domain (e.g., *Dr. Reddy's*).
+
+### 04. Meta-Patterns Engine
+A continuous macro-trend evaluation layer that:
+*   Identifies global statistical trends across divergent market sectors.
+*   Dynamically applies these cross-sector insights back to the entire training database to optimize overall forecasting accuracy.
+
